@@ -14,7 +14,7 @@ This bot will not work correctly until you have amassed the following:
  5. Turn off relic popups in the game config. It's slightly helpful to also turn off all popup text and turn on tiny monsters, but that is definitely not required.
 
 Features:
- 1. The bot will click the enemey a LOT (40 times per second) and collect gold faster than a human
+ 1. The bot will click the enemy a LOT (40 times per second) and collect gold faster than a human
  2. Every 5 seconds the bot will attempt to scroll down the hero screen, level the bottom-most hero 20 times and buy all available upgrades. Upon reaching a gilded hero, the bot will stop scrolling down.
  3. Cooldowns will be used in the following order (by default Clickstorm is disabled):
   1. 1, 2, 3, 4, 5, 7, 8, 6, 9 ([EDR combo](https://www.reddit.com/r/ClickerHeroes/comments/2j5v1k/about_edr_combo/))
