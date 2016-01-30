@@ -4,7 +4,7 @@
 
 A java bot that plays the [Clicker Heroes](https://clickerheroes.com) end game for you.
 
-This bot will not work correctly until you have amassed the following:
+##### This bot will not work correctly until you have amassed the following:
  1. Iris level ~150
   - Needs to be high enough so that you should be able to immediately purchase Frostleaf after clicking a candy
  2. Vaagur level 15 (max) - for proper cooldown management.
@@ -13,7 +13,7 @@ This bot will not work correctly until you have amassed the following:
  4. All your gilds are on Frostleaf or later
  5. Turn off relic popups in the game config. It's slightly helpful to also turn off all popup text and turn on tiny monsters, but that is definitely not required.
 
-Features:
+##### Features:
  1. The bot will click the enemy a LOT (40 times per second) and collect gold faster than a human
  2. Every 5 seconds the bot will attempt to scroll down the hero screen, level the bottom-most hero 20 times and buy all available upgrades. Upon reaching a gilded hero, the bot will stop scrolling down.
  3. Cooldowns will be used in the following order (by default Clickstorm is disabled):
@@ -43,18 +43,19 @@ Features:
   6. Click hero screen, level all heroes up to and including Frostleaf to maximum level required for all their abilties
   7. Resume normal botting (resetting the cooldown state)
 
-Things this bot does not do, and you need to handle manually:
+##### Things this bot does not do, and you need to handle manually:
  1. Spending your hero souls for you. I recommend an [ancients optimizer](http://s3-us-west-2.amazonaws.com/clickerheroes/ancientssoul.html) for that.
  2. Choosing which relic to salvage. The bot automatically salvages the newest relic.
  3. Command mercenaries on quests
  4. Organize your gilds for you. Be careful - if you've put all your gilds into Atlas and then you receive a random gild on Frostleaf, the bot will stop progressing past Frostleaf.
  5. Save your game
 
-Prerequesites to run:
+##### Prerequesites to run:
  1. [Java 7](http://www.oracle.com/technetwork/java/javase/downloads/index.html) or greater
  2. A browser that can run Clicker Heroes (a shockwave flash game)
+ 3. [Download the jar file](https://github.com/andrewmacheret/robotheroes/blob/master/target/robotheroes-1.0.jar?raw=true) or use [git](https://git-scm.com/) the clone the source with `git clone git@github.com:andrewmacheret/robotheroes.git`
 
-To run:
+##### To run:
  1. Level all heroes before Frostleaf to high enough level to upgrade all abilties, and level Frostleaf at least once, and turn on progression mode
  2. Scroll down to the very bottom of the hero list
  3. If necessary, use `mvn package` if you made any changes to the source files (requires [mvn](https://maven.apache.org/))
