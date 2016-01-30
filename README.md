@@ -32,7 +32,7 @@ Features:
   14. (wait 2.5 minutes, then go to step 1)
  4. Every 10 seconds the bot will check for candy
   - If before ascension time, click the candy immediately
-  - If [after ascension time](https://github.com/andrewmacheret/robotheroes/blob/master/src/com/macheret/robotheroes/RobotHero.java#L27), confirm that the candy is there 3 times to ensure no false positives, then begin the ascension process
+  - If after ascension time [(60 minutes by default)](https://github.com/andrewmacheret/robotheroes/blob/master/src/com/macheret/robotheroes/RobotHero.java#L27), confirm that the candy is there 3 times to ensure no false positives, then begin the ascension process
  5. During ascension:
   1. Stop all normal enemy clicking, hero leveling, cooldown usage, and candy clicking
   2. Click relic screen and salvage the new relic if there is one
