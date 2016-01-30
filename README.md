@@ -1,8 +1,8 @@
 # robotheroes
 
-![Bot screenshot](data/screenshot.png?raw=true "Bot screenshot")
-
 A java bot that plays the [Clicker Heroes](https://clickerheroes.com) end game for you.
+
+![Bot screenshot](data/screenshot.png?raw=true "Bot screenshot")
 
 ##### This bot will not work correctly until you have amassed the following:
  1. Iris level ~150
