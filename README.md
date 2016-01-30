@@ -30,7 +30,7 @@ Features:
   11. 1, 2
   12. (wait 2.5 minutes)
   13. 1, 2
-  14. (wait 2.5 minutes, then go to step 1)
+  14. (wait 2.5 minutes, then start over again)
  4. Every 10 seconds the bot will check for candy
   - If before ascension time, click the candy immediately
   - If after ascension time [(60 minutes by default)](https://github.com/andrewmacheret/robotheroes/blob/master/src/com/macheret/robotheroes/RobotHero.java#L27), confirm that the candy is there 3 times to ensure no false positives, then begin the ascension process
