@@ -1,6 +1,6 @@
 # robotheroes
 
-_ insert video here _
+![Bot screenshot](data/screenshot.png?raw=true "Bot screenshot")
 
 A java bot that plays the [Clicker Heroes](https://clickerheroes.com) end game for you.
 
