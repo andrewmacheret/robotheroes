@@ -7,10 +7,11 @@ A java bot that plays the [Clicker Heroes](https://clickerheroes.com) end game f
 This bot will not work correctly until you have amassed the following:
  1. Iris level ~150
   - Needs to be high enough so that you should be able to immediately purchase Frostleaf after clicking a candy
- 2. Vaagur level 15 - for proper cooldown management.
+ 2. Vaagur level 15 (max) - for proper cooldown management.
   - This requirement can be skirted by modifying [COOLDOWN_PERIOD](https://github.com/andrewmacheret/robotheroes/blob/master/src/com/macheret/robotheroes/RobotHero.java#L32) to Powersurge's cooldown + 1 second for safety (base 15 minutes, or 2.5 minutes after maxing Vaagur's level).
- 3. All your gilds are on Frostleaf or later
- 4. Turn off relic popups in the game config. It's slightly helpful to also turn off all popup text and turn on tiny monsters, but that is definitely not required.
+ 3. Klepto level 30 (max) - this requirement is minor however and can be modified by changing [GOLDEN_CLICK_SECONDS](https://github.com/andrewmacheret/robotheroes/blob/master/src/com/macheret/robotheroes/RobotHero.java#L26) to Golden Click's duration
+ 4. All your gilds are on Frostleaf or later
+ 5. Turn off relic popups in the game config. It's slightly helpful to also turn off all popup text and turn on tiny monsters, but that is definitely not required.
 
 Features:
  1. The bot will click the enemey a LOT (40 times per second) and collect gold faster than a human
