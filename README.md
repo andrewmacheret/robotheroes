@@ -40,7 +40,7 @@ A java bot that plays the [Clicker Heroes](https://clickerheroes.com) end game f
   3. Click ascend and confirm
   4. Change to progression mode (ascending always changes the game back to farm mode)
   5. Click candy, wait for gold to drop and then collect that gold
-  6. Click hero screen, level all heroes up to and including Frostleaf to maximum level required for all their abilties
+  6. Click hero screen, level all heroes up to and including Frostleaf to maximum level required for all their abilities
   7. Resume normal botting (resetting the cooldown state)
 
 ##### Things this bot does not do, and you need to handle manually:
