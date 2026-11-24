@@ -1,5 +1,7 @@
 # robotheroes
 
+[![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/robotheroes/blob/master/LICENSE.md)
+
 A java bot that plays the [Clicker Heroes](https://clickerheroes.com) end game for you.
 
 ![Bot screenshot](data/screenshot.png?raw=true "Bot screenshot")
